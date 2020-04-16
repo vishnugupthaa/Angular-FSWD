@@ -1,13 +1,14 @@
-import { Injectable } from '@angular/core';
-import { throwError } from 'rxjs';
-import { HttpErrorResponse } from '@angular/common/http';
+import {Injectable} from '@angular/core';
+import {HttpErrorResponse} from '@angular/common/http';
+import {throwError} from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProcessHTTPMsgService {
 
-  constructor() { }
+  constructor() {
+  }
 
   public handleError(error: HttpErrorResponse | any) {
     let errMsg: string;
