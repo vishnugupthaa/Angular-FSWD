@@ -7,7 +7,7 @@ import {expand , flyInOut} from '../animations/app.animation';
 @Component({
   templateUrl: './menu.component.html' ,
   selector: 'app-menu' ,
-  styleUrls: ['./menu.component.css'] ,
+  styleUrls: ['./menu.component.scss'] ,
   // tslint:disable-next-line:use-host-property-decorator
   host: {
     '[@flyInOut]': 'true' ,

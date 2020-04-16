@@ -10,7 +10,7 @@ import {FeedbackService} from '../services/feedback.service';
 @Component({
   selector: 'app-contact' ,
   templateUrl: './contact.component.html' ,
-  styleUrls: ['./contact.component.css'] ,
+  styleUrls: ['./contact.component.scss'] ,
   // tslint:disable-next-line:use-host-property-decorator
   host: {
     '[@flyInOut]': 'true' ,

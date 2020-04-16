@@ -12,7 +12,7 @@ import {visibility} from '../animations/app.animation';
 @Component({
   selector: 'app-dishdetail' ,
   templateUrl: './dishdetail.component.html' ,
-  styleUrls: ['./dishdetail.component.css'] ,
+  styleUrls: ['./dishdetail.component.scss'] ,
   animations: [visibility()
   ]
 })

@@ -11,7 +11,7 @@ import {expand , flyInOut} from '../animations/app.animation';
 @Component({
   selector: 'app-home' ,
   templateUrl: './home.component.html' ,
-  styleUrls: ['./home.component.css'] ,
+  styleUrls: ['./home.component.scss'] ,
   // tslint:disable-next-line:use-host-property-decorator
   host: {
     '[@flyInOut]': 'true' ,
